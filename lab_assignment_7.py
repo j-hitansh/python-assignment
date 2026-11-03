@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt 
-filename = input("Enter CSV filename: ") 
+filename = input("Enter your csv file: ") 
 df = pd.read_csv(filename) 
 print("\nDataset:") 
 print(df) 
@@ -76,3 +76,4 @@ plt.tight_layout()
 plt.show()
 
 print("\nAll plots generated successfully.") 
+
